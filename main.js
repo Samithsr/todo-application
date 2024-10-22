@@ -1,0 +1,1 @@
+const str = "hello how are you"

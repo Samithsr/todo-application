@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 97vh;
+        }
+        .container{
+            border-radius: 20px;
+            width: 600px;
+            height: 400px;
+            box-shadow: 0 0 4px rgba(0, 0, 0, 0.451);
+            display: flex;
+            justify-content: space-evenly;
+            padding: 10px;
+            gap: 10px;
+        }
+        section{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: flex-start;
+            width: 100%;
+            height: 100%;
+            border-radius: 20px;
+            
+        }
+        .section1{
+            background: black;
+            overflow: hidden;
+            box-shadow: 0 0 3px black;
+
+        }
+        .section2{
+            display: flex;
+            flex-direction: column;
+        gap: 10px;
+        overflow: hidden;
+            }
+            .section3{
+                display: flex;
+            flex-direction: column;
+        gap: 10px;
+            }
+            .section2 > div{
+                width: 100%;
+                height: 50%;
+                background: black;
+                border-radius: 20px;
+                border-radius: 20px;
+                overflow: hidden;
+            }
+            .section2 > div > img{
+                width: 100%;
+                height: 100%;
+            }
+            .section3 > div{
+                width: 100%;
+                height: 32%;
+                background: black;
+                border-radius: 20px;
+                overflow: hidden;
+                border-radius: 20px;
+            }
+
+            .section1 >img{
+                width: 100%;
+                height: 100%;
+        
+            }
+
+            .section3 > div > img{
+                width: 100%;
+                height: 100%;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <section class="section1"><img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="img"></section>
+        <section class="section2">
+            <div><img src="https://images.unsplash.com/photo-1473042904451-00171c69419d?q=80&w=899&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""></div>
+            <div><img src="https://images.unsplash.com/photo-1470723710355-95304d8aece4?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""></div>
+        </section>
+        <section class="section3">
+            <div><img src="https://plus.unsplash.com/premium_photo-1664303619183-6effc8cf1c01?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""></div>
+            <div><img src="https://plus.unsplash.com/premium_photo-1664304752635-3e0d8d8185e3?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""></div>
+            <div><img src="https://images.unsplash.com/photo-1488134684157-fea2d81a5ec4?q=80&w=872&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""></div>
+        </section>
+    </div>
+</body>
+</html>
